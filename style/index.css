@@ -1,0 +1,91 @@
+.gradient-custom-3 { 
+    background: #84fab0;
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+.gradient-custom-4 {
+    background: #84fab0;
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+.card{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.arrows{
+    font-size: 1.5rem; 
+}
+button{
+    margin-left: .5rem; 
+}
+.nav-link:hover{
+    color: #FF004D;
+    text-decoration: underline;
+}
+.active{
+    color:#E89A67 !important;
+}
+.catagory:hover{
+    color: red;
+}
+.electronics img{
+    transition: transform .2s;
+}
+.electronics:hover img{
+    -ms-transform: scale(1.2);  
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2);
+}
+.electronics:hover {
+    color:#F1948A;
+}
+.cat2{
+    transition: transform .2s;
+}
+.cat2:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2);
+}
+.cat2:hover {
+    color:#F1948A;
+}
+.links:hover {
+    color: red !important;
+    text-decoration: underline;
+}
+/* catagory  */
+.slider-wrapper {
+    width:100%;
+    overflow: hidden;
+    padding: 5px 5px 5px;
+    white-space: wrap;
+}
+.fact {
+    /* vertical-align: top; */
+    display: inline-block;
+    /* height: auto;
+    width: 200px; */
+    background-color: white;
+    margin:5px;
+    border-radius: 15px;
+    box-shadow:
+      0 1.6px 3.6px rgba(0, 0, 0, 0.01),
+      0 4.5px 10px rgba(0, 0, 0, 0.015),
+      0 10.9px 24.1px rgba(0, 0, 0, 0.02),
+      0 36px 80px rgba(0, 0, 0, 0.03);
+}
+
+@media screen and (max-width:290px) {
+.btn-all{
+    display:none;   
+}
+}
+  
+
+  
+
+  
+

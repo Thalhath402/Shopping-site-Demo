@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCart-login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style/login.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-light p-4 gradient-custom-3">
+        <div class="container-fluid">
+          <a class="navbar-brand font me-5" href="#">eCart.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html"><i class="bi bi-house-fill"> </i>HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="login.html"><i class="bi bi-box-arrow-right"></i> LOGIN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html"><i class="bi bi-bag-check-fill"></i> PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="cart.html"><i class="bi bi-cart-check-fill"></i> CART</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="notifications.html"><i class="bi bi-bell-fill"></i> NOTIFICATIONS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+    <!-- search bar -->
+    <section class="gradient-custom-3 py-1">
+      <form class="d-flex mx-3 mb-3" role="search">
+        <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>  
+    </section>
+    <!-- search bar end-->
+    <!-- loginform start -->
+    <section class=" gradient-custom-4">
+        <div class="container-fluid py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-7 col-xl-5 h-100">
+              <div class="card " style="border-radius: 1rem;">
+                <div class="card-body p-5 text-center">
+      
+                  <div class="mb-md-5 mt-md-4 pb-4 text-muted">
+                    <form action="#" id="myform">
+                      <h2 class="text-uppercase text-center mb-3">Login</h2>
+                      <p class="text-50 mb-4">Please enter your Email and Password!</p>
+      
+                      <div class="form-outline  text-start form-white mb-3">
+                        <input type="text" id="email" class="form-control form-control-lg" />
+                        <label class="form-label" for="typeEmailX">Email</label>
+                      </div>
+      
+                      <div class="form-outline text-start form-white mb-3">
+                        <input type="password" id="pass" class="form-control form-control-lg" />
+                        <label class="form-label" for="typePasswordX">Password</label>
+                      </div>
+      
+                      <p class="small mb-3 pb-lg-2"><a class="fw-bold text-body " href="#!">Forgot password?</a></p>    
+                      <button class="btn btn-success btn-block btn-lg gradient-custom-4 text-body px-5" type="submit">Login</button>                      
+                    </form>
+                  </div>
+                  <div>
+                    <p class="mb-0">Don't have an account? <a href="registration.html" class="text-body fw-bold">Sign Up</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+      <!-- loginform end -->
+      <script src="js/login.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
